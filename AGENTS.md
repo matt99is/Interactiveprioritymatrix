@@ -20,6 +20,7 @@ Read these files before starting any task:
 |---|---|---|
 | 1 - always | `README.md` | High-level project purpose and run flow |
 | 2 - always | `package.json` | Scripts and dependency surface |
+| 3 - before frontend work | `/home/matt99is/projects/vault/Patterns/frontend-standards.md` | Before any frontend or UI work |
 | 3 - for app behavior | `src/App.tsx` | Main composition and routing of prototype behavior |
 | 4 - for feature logic | `src/components/InteractivePriorityMatrix.tsx` | Core matrix component logic |
 | 5 - for implementation conventions | `src/guidelines/Guidelines.md` | Figma-export baseline constraints |
