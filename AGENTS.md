@@ -20,7 +20,7 @@ Read these files before starting any task:
 |---|---|---|
 | 1 - always | `README.md` | High-level project purpose and run flow |
 | 2 - always | `package.json` | Scripts and dependency surface |
-| 3 - before frontend work | `/home/matt99is/projects/vault/Patterns/frontend-standards.md` | Before any frontend or UI work |
+| 3 - before frontend work | `../vault/Patterns/frontend-standards.md` | Before any frontend or UI work |
 | 3 - for app behavior | `src/App.tsx` | Main composition and routing of prototype behavior |
 | 4 - for feature logic | `src/components/InteractivePriorityMatrix.tsx` | Core matrix component logic |
 | 5 - for implementation conventions | `src/guidelines/Guidelines.md` | Figma-export baseline constraints |
@@ -29,14 +29,16 @@ Read these files before starting any task:
 
 ## Startup Gate (Mandatory)
 
-Before running commands, searching code, or editing files, every agent must:
+Before running commands, searching code, or editing files, every agent must load the always-required startup context:
 
 1. Read this `AGENTS.md`.
 2. Read `README.md`.
 3. Read `package.json`.
-4. Read vault project note: `/home/matt99is/projects/vault/Projects/Interactiveprioritymatrix.md`.
-5. Read vault governance note: `/home/matt99is/projects/vault/Patterns/vault-note-governance.md`.
+4. Read vault project note: `../vault/Projects/Interactiveprioritymatrix.md`.
+5. Read vault governance note: `../vault/Patterns/vault-note-governance.md`.
 6. In the first response of the session, explicitly confirm these files were loaded.
+
+Load other items from the table above only when their scope applies to the task.
 
 If any step is missed, stop and complete it before continuing.
 
@@ -44,7 +46,7 @@ If any step is missed, stop and complete it before continuing.
 
 ## Vault Note Contract (Anti-Bloat)
 
-The vault project note at `/home/matt99is/projects/vault/Projects/Interactiveprioritymatrix.md` is startup memory, not history.
+The vault project note at `../vault/Projects/Interactiveprioritymatrix.md` is startup memory, not history.
 
 ### Fixed purpose
 - Keep only current operating truth needed to start work quickly.
